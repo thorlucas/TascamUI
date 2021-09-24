@@ -7,6 +7,7 @@ example/build
 
 # build
 *.tsbuildinfo
+/lib
 
 # misc
 .DS_Store
