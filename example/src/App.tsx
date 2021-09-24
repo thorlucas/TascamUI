@@ -1,5 +1,5 @@
 import React from 'react';
-import { SayHello } from 'tascam-ui';
+import { Button } from 'tascam-ui';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,7 +17,7 @@ function App() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<SayHello name="React" />
+					<Button label='Hi' />
 				</a>
 			</header>
 		</div>
