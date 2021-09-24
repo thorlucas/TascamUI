@@ -1,6 +1,6 @@
 {
   "name": "TascamUI",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A React UI component library inspired by TASCAM machines",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -8,6 +8,9 @@
   "repository": "https://github.com/thorlucas/TascamUI",
   "author": "Thor Lucas Correia",
   "license": "MIT",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
